@@ -61,12 +61,12 @@ header{
     width: 100%;
 }
 
-/* Quick list of Our Features Style */
+/* Quick list of Features Style */
 .features-list{
     
     display: flex;
     align-items: center;
-    padding: 50px 20px;
+    padding: 80px 20px;
 }
 .features-teams{
     width: 60vw;
@@ -76,6 +76,7 @@ header{
 }
 .team img{
     width: 100%;
+    
 }
 .features-content{
     width: 40vw;
@@ -96,4 +97,69 @@ header{
     color: #727272;
     font-size: 16px;
     margin-bottom: 20px;
+}
+
+/* Enjoying and Loving Features Style */
+
+.architect-features .features{
+    display: flex;
+}
+.architect-features-content{
+    width: 50vw;
+    margin-right: 80px;
+}
+.architect-features-title{
+    font-size: 45px;
+    font-weight: 700;
+    border-left: 5px solid #FF900E;
+    padding: 0 70px 0 20px;
+    margin: 20px 0;
+}
+.architect-features-description{
+    color: #727272;
+}
+.card{
+    
+    margin: 10px 0;
+    border-radius: 10px; 
+    box-shadow: 10px 10px 5px whitesmoke; 
+}
+.single-feature{
+    padding: 1px 20px;
+}
+.single-feature-title{
+    color: #131313;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.single-feature-description{
+    color: #727272;
+    font-size: 16px;
+    margin: 0 0 10px 0;
+}
+.architect-features-side-image{
+    width: 50vw;
+}
+.architect-features-side-image img{
+    width: 100%;
+}
+.experience-cell{
+    position: relative;
+    top: -90px;
+    left: -50px;
+    background-color: #FF900E;
+    border-radius: 10px;
+    width: 250px;
+
+}
+.experience{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    color: white;
+}
+.experience .big-font{
+    font-size: 55px; 
 }
