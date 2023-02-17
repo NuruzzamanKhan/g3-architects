@@ -1,0 +1,97 @@
+.primary-btn{
+    background-color: 
+    #FF900E;
+    color: #FFFFFF;
+    padding: 20px 25px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* Header Style */
+header{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
+.banner, main{
+    margin: 0px 240px;
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo h2{
+    font-size: 45px;
+    color: #131313;
+    font-weight: 700;
+}
+.nav-menu ul{
+    display: flex;
+    gap: 50px;
+}
+.nav-menu ul li{
+    list-style: none;
+}
+.nav-menu ul li a{
+    color: #424242;
+    text-decoration: none;
+}
+
+
+.banner-container {
+    text-align: center;
+}
+.banner-content{
+    padding: 0 100px;
+}
+.banner-title{
+    font-size: 64px;
+    font-weight: 700;
+    color: #131313;
+    margin-bottom: 20px;
+}
+.banner-description{
+    color: #727272;
+    margin-bottom: 20px;
+}
+.banner-container img{
+    margin: 20px 0;
+    width: 100%;
+}
+
+/* Quick list of Our Features Style */
+.features-list{
+    display: flex;
+    align-items: center;
+    padding: 50px 20px;
+}
+.features-images{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+.features-images img{
+   width: 280px;
+   height: 280px;
+}
+.features-content{
+    padding: 0 40px;
+}
+.features-title{
+    font-size: 45px;
+    color: #727272;
+    margin-bottom: 20px;
+}
+.features-title .dark-black{
+    color: #131313;
+}
+.features-title .orange{
+    color:#FF900E;
+}
+.features-description{
+    color: #727272;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
