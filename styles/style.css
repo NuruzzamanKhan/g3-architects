@@ -63,20 +63,22 @@ header{
 
 /* Quick list of Our Features Style */
 .features-list{
+    
     display: flex;
     align-items: center;
     padding: 50px 20px;
 }
-.features-images{
+.features-teams{
+    width: 60vw;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 15px;
 }
-.features-images img{
-   width: 280px;
-   height: 280px;
+.team img{
+    width: 100%;
 }
 .features-content{
+    width: 40vw;
     padding: 0 40px;
 }
 .features-title{
