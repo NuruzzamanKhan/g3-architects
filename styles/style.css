@@ -1,4 +1,13 @@
-body{margin: 0;}
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&family=Work+Sans:wght@500&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+.banner, main, footer{
+    margin: 0px 240px;
+}
 .primary-btn{
     background-color: 
     #FF900E;
@@ -15,9 +24,7 @@ header{
     background-color: rgba(255, 144, 14, 0.1);
 }
 
-.banner, main, footer{
-    margin: 0px 240px;
-}
+
 .nav-bar{
     display: flex;
     align-items: center;
@@ -189,14 +196,24 @@ header{
     border: 2px solid #FF900E;
     border-radius: 5px;
     text-align: center;
+    transition: width 1s, height 1s, transform 1s;
+}
+.fact-single-card:hover{
+    transform:scale(0.7);
+    
 }
 .fact-single-card img{
    padding-top: 35px; 
 }
 .fact-single-card .number{
-    font-size: 40             px;
+    color: #424242;
+    font-size: 40px;
     font-weight: 700;
     margin: 0;
+}
+.fact-single-card p{
+    color: #727272;
+    font-weight: 600;
 }
 
 /* sponsor style */
@@ -340,6 +357,12 @@ For Small Device
     align-items: center;
     gap: 20px;
 }
+}
+
+@media screen and (min-width:577px) and (max-width:767px){
+    .banner, main, footer{
+        margin: 0px 20px;
+    }
 }
 
 
