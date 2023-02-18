@@ -1,3 +1,4 @@
+body{margin: 0;}
 .primary-btn{
     background-color: 
     #FF900E;
@@ -166,6 +167,18 @@ header{
 
 
 /* Facts Style */
+.facts-content{
+    padding-right: 500px;
+}
+.facts-title{
+    font-size: 45px;
+    color: #131313;
+    margin: 0;
+}
+.facts-description{
+    font-size: 16px;
+    color: #727272;
+}
 .facts-card{
     display: flex;
     justify-content: space-around
@@ -187,6 +200,19 @@ header{
 }
 
 /* sponsor style */
+.sponsors{
+    text-align: center;
+    padding: 0 250px;
+}
+.sponsors-title{
+    font-size: 45px;
+    font-weight: 700;
+    margin: 80px 0 0 0;
+}
+.sponsors-description{
+    color: #727272;
+    margin-bottom: 40px;
+}
 .sponsors-companies{
     display: flex;
     justify-content: space-between;
@@ -198,23 +224,153 @@ header{
 .company img{
     width: 100%;
 }
+/* Copy Right Style */
+.copyright{
+    margin: 100px 0;
+    color: #424242;
+    background-color: #FFF4E7;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    padding-top: 14px;
+}
 
 
-@media screen and (min-width: 768px) and (max-width:991px) {
-    .banner, main, footer{
+/* ------------
+Responsive Style
+-------------- */
+/*----------------- 
+For Small Device 
+-------------------*/
+@media screen and (max-width:576px) {
+    .banner, footer{
         margin: 0px 0px;
     }
+
+    /* Header Style */
+    .logo h2{
+        margin-bottom: 20px;
+        padding-left: 10px;
+    }
+    .nav-bar{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .nav-menu ul{
+        flex-direction: column;
+        gap: 15px;
+    }
+    .banner-content{
+        padding: 0 20px;
+    }
+    .banner-title{
+        font-size: 30px;
+    }
+    /* Header Style End */
+
+    main{
+        margin: 0;
+    }
+    .features-list {
+        flex-direction: column-reverse;
+        padding: 0px;
+    }
+    .features-teams{
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 20px;
+        width: 80vw;
+    } 
+    .features-content{
+        width: 80vw;
+    }
+    /* Quick list of Our Features End */
+    
+.architect-features .features{
+    flex-direction: column;
+    padding: 30px;
 }
+.architect-features-content{
+    width: 80vw;
+}
+.architect-features-title {
+    font-size: 30px;
+}
+.single-feature {
+    padding: 0;
+}
+.architect-features-side-image{
+    width: 80vw;
+}
+.experience{
+    padding: 5px;
+}
+.experience-cell{
+    width: 170px;
+    top: -62px;
+    left: -24px;
+}
+.experience .big-font {
+    font-size: 30px;
+}
+
+/* Facts Style */
+.facts{
+    margin-top: -30px;
+    padding: 30px;
+}
+.facts-content{
+    padding: 0;
+    text-align: center;
+}
+.facts-card{
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Sponsors Style */
+.sponsors-title{
+    margin-top: 50px;
+}
+.sponsors{
+    padding: 0;
+}
+.sponsors-companies{
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+}
+
+
+/* --------------
+For Large Devices
+-----------------*/
+@media screen and (min-width: 768px) and (max-width:992px) {
+    .banner, main, footer{
+        margin: 0px 50px;
+    }
+}
+
+/*-------------------- 
+For Extra Large Devices
+----------------------*/
 @media screen and (min-width: 992px) and (max-width:1200px) {
     .banner, main, footer{
         margin: 0px 50px;
         
     }
 }
+
+/*---------------------------
+For Extra Extra Large Devices
+---------------------------*/
 @media screen and (min-width: 1201px) and (max-width:1400px) {
     .banner, main, footer{
         margin: 0px 50px;
         
     }
 }
+
+
 
