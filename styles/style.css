@@ -163,3 +163,25 @@ header{
 .experience .big-font{
     font-size: 55px; 
 }
+
+
+/* Facts Style */
+.facts-card{
+    display: flex;
+    justify-content: space-around
+}
+.fact-single-card{
+    height: 200px;
+    width: 200px;
+    border: 2px solid #FF900E;
+    border-radius: 5px;
+    text-align: center;
+}
+.fact-single-card img{
+   padding-top: 35px; 
+}
+.fact-single-card .number{
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0;
+}
